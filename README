@@ -1,0 +1,17 @@
+It is a pet project for my Highload System Architecture Projector's course homework.
+This solution should set up the infrastructure of Telegraf-InfluxDb-Grafana stack services, plus some services to monitor systems like MongoDB, Elastic Search, Nginx, and ASP.NET core application.
+
+To run, type `docker-compose up`.
+
+Grafana host: localhost:3000
+You have to import dashboards from the 'dashboards' folder.
+There are dashboards for all services we use here. 
+You have to setup datasource for influx db: http://influxdb:8086, user=admin, password=admin
+
+Nginx: localhost:80
+Simple setup that shows static HTML page.
+
+You can connect to the docker container and check all the data saved to InfluxDB.
+Use: `docker exec -it influxdb influx`
+
+Telegraf.conf contais all settings for telegraf agent. You can tune it or extend it if you want more monitoring sources.
