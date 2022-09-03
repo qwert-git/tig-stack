@@ -15,3 +15,7 @@ You can connect to the docker container and check all the data saved to InfluxDB
 Use: `docker exec -it influxdb influx`
 
 Telegraf.conf contais all settings for telegraf agent. You can tune it or extend it if you want more monitoring sources.
+
+Screenshots:
+![Alt text](/screenshots/screen-1.png?raw=true "Grafana dashboard list")
+![Alt text](/screenshots/screen-2.png?raw=true "Dashboard view")
