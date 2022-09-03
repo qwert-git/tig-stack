@@ -17,6 +17,6 @@ Use: `docker exec -it influxdb influx`
 Telegraf.conf contais all settings for telegraf agent. You can tune it or extend it if you want more monitoring sources.
 
 Screenshots:
-![ScreenShot](https://postimg.cc/06cQ2pJp)
+![screen-1](https://user-images.githubusercontent.com/30839400/188272268-9a7a6be5-0daa-4fc0-944c-a2de1a055932.png)
 
-![ScreenShot](https://i.postimg.cc/G8tpBHk6/screen-2.png)
+![screen-2](https://user-images.githubusercontent.com/30839400/188272278-77679f81-5dd6-4f9b-9808-f363e5d75311.png)
